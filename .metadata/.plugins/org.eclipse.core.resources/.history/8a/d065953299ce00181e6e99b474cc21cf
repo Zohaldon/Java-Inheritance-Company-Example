@@ -1,0 +1,16 @@
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee aEmployee = new Employee("Parth", 1000000);
+		Manager aManager = new Manager("Dave", 100, "IT");
+		Executive aExecutive = new Executive("Yamin", 10000, "CE", 200);
+		aEmployee.toString();
+		aManager.toString();
+		aExecutive.toString();
+		
+		System.out.println(aEmployee.toString());
+	}
+
+}

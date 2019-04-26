@@ -1,0 +1,27 @@
+
+public class Executive extends Manager{
+
+	long yearlyBonus;
+	public Executive(String name, long salary, String dept, long yearlyBonus) {
+		super(name, salary, dept);
+		this.yearlyBonus = yearlyBonus;
+		// TODO Auto-generated constructor stub
+	}
+	
+	//Properties
+	public long getYearlyBonus()
+	{
+		return yearlyBonus;
+	}
+	public void setYearlyBonus(long yearlyBonus)
+	{
+		this.yearlyBonus = yearlyBonus;
+	}
+	
+	//overriding To String
+	@Override
+	public String toString() {
+		return "Executive [yearlyBonus=" + yearlyBonus + "]";
+	}
+
+}

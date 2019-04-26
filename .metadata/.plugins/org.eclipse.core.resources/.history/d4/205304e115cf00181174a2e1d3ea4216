@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		// TODO Auto-generated method stub
+		Employee aEmployee = new Employee("Dave", 35000);
+		System.out.println("Please Employee Name: ");
+		aEmployee.name = sc.next();
+		System.out.println("Please Employee Salary: ");
+		aEmployee.salary = sc.nextLong();
+		
+		Manager aManager = new Manager("Milan", 89550, "IT");
+		Executive aExecutive = new Executive("Parth", 145000, "CE", 8499);
+		
+		System.out.println(aEmployee);
+		System.out.println(aManager);
+		System.out.println(aExecutive);
+		
+	}
+
+}
+
+
+
+
+
